@@ -31,7 +31,7 @@
   var options = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
   var wins = 0;
   var losses = 0;
-  var guessesLeft = 10;
+  var guessesLeft = 9;
   var lettersGuessed = userGuess;
   var computerGuess = options[Math.floor(Math.random()*options.length)];
   console.log("Computer Guessed: " + computerGuess);
@@ -52,7 +52,7 @@
   }
   
     function reWriteStats(){
-        guessesLeft = 10;
+        guessesLeft = 9;
         computerGuess = options[Math.floor(Math.random()*options.length)];
         console.log("Computer Guessed: " + computerGuess);
     }
