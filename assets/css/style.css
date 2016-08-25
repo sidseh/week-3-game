@@ -5,15 +5,15 @@
 	
 }
 
-
-
 header,
 div,
-
 header{
 	font-size: 60px;
 	padding-top: 90px;
 }
 div{
 	font-size: 28px;
+}
+footer{
+	padding-top:300px;
 }

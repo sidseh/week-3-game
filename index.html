@@ -39,7 +39,7 @@
 
 
   //Functions
-    function subtract(){
+    function reduce(){
       if (guessesLeft >= 1) {
         guessesLeft --;
       
@@ -79,7 +79,7 @@
     }
     else {
       console.log("Try again!");
-      subtract();
+      reduce();
     }
     document.getElementById("wins").innerHTML= wins;
     document.getElementById("losses").innerHTML= losses;
@@ -91,6 +91,8 @@
    
 </script>
 
-
+<footer>
+  &copy; Siddhant Sehgal 2016
+</footer>
 </body>
 </html>
